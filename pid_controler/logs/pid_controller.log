@@ -1,0 +1,193 @@
+2026-05-03 18:14:47 [INFO] __main__: ============================================================
+2026-05-03 18:14:47 [INFO] __main__: 直流减速电机闭环控制上位机启动
+2026-05-03 18:14:47 [INFO] __main__: ============================================================
+2026-05-03 18:14:50 [INFO] ui.main_window: 上位机启动完成
+2026-05-03 18:14:51 [INFO] __main__: 主窗口显示成功
+2026-05-03 18:26:12 [INFO] __main__: 应用退出，退出码: 0
+2026-05-03 18:26:51 [INFO] __main__: ============================================================
+2026-05-03 18:26:51 [INFO] __main__: 直流减速电机闭环控制上位机启动
+2026-05-03 18:26:51 [INFO] __main__: ============================================================
+2026-05-03 18:26:51 [INFO] ui.main_window: 上位机启动完成
+2026-05-03 18:26:52 [INFO] __main__: 主窗口显示成功
+2026-05-03 18:27:56 [INFO] __main__: 应用退出，退出码: 0
+2026-05-03 18:30:19 [INFO] __main__: ============================================================
+2026-05-03 18:30:19 [INFO] __main__: 直流减速电机闭环控制上位机启动
+2026-05-03 18:30:19 [INFO] __main__: ============================================================
+2026-05-03 18:30:20 [INFO] ui.main_window: 上位机启动完成
+2026-05-03 18:30:20 [INFO] __main__: 主窗口显示成功
+2026-05-03 18:30:33 [INFO] __main__: 应用退出，退出码: 0
+2026-05-03 18:39:21 [INFO] __main__: ============================================================
+2026-05-03 18:39:21 [INFO] __main__: 直流减速电机闭环控制上位机启动
+2026-05-03 18:39:21 [INFO] __main__: ============================================================
+2026-05-03 18:39:22 [CRITICAL] __main__: 主窗口创建失败: type object 'Colors' has no attribute 'Crust'
+Traceback (most recent call last):
+  File "D:\study\code\trae\pid_controler\main.py", line 79, in main
+    window = MainWindow()
+  File "D:\study\code\trae\pid_controler\ui\main_window.py", line 68, in __init__
+    self._setup_central_widget()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "D:\study\code\trae\pid_controler\ui\main_window.py", line 184, in _setup_central_widget
+    self._control_panel = ControlPanel()
+                          ~~~~~~~~~~~~^^
+  File "D:\study\code\trae\pid_controler\ui\control_panel.py", line 206, in __init__
+    self._setup_ui()
+    ~~~~~~~~~~~~~~^^
+  File "D:\study\code\trae\pid_controler\ui\control_panel.py", line 379, in _setup_ui
+    color: {Colors.Crust};
+            ^^^^^^^^^^^^
+AttributeError: type object 'Colors' has no attribute 'Crust'. Did you mean: 'CRUST'?
+2026-05-03 18:39:47 [INFO] main: ============================================================
+2026-05-03 18:39:47 [INFO] main: 直流减速电机闭环控制上位机启动
+2026-05-03 18:39:47 [INFO] main: ============================================================
+2026-05-03 18:39:48 [CRITICAL] main: 主窗口创建失败: type object 'Colors' has no attribute 'Crust'
+Traceback (most recent call last):
+  File "D:\study\code\trae\pid_controler\main.py", line 79, in main
+    window = MainWindow()
+  File "D:\study\code\trae\pid_controler\ui\main_window.py", line 68, in __init__
+    self._setup_central_widget()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "D:\study\code\trae\pid_controler\ui\main_window.py", line 184, in _setup_central_widget
+    self._control_panel = ControlPanel()
+                          ~~~~~~~~~~~~^^
+  File "D:\study\code\trae\pid_controler\ui\control_panel.py", line 206, in __init__
+    self._setup_ui()
+    ~~~~~~~~~~~~~~^^
+  File "D:\study\code\trae\pid_controler\ui\control_panel.py", line 379, in _setup_ui
+    color: {Colors.Crust};
+            ^^^^^^^^^^^^
+AttributeError: type object 'Colors' has no attribute 'Crust'. Did you mean: 'CRUST'?
+2026-05-03 18:45:29 [INFO] main: ============================================================
+2026-05-03 18:45:29 [INFO] main: 直流减速电机闭环控制上位机启动
+2026-05-03 18:45:29 [INFO] main: ============================================================
+2026-05-03 18:45:29 [CRITICAL] main: 主窗口创建失败: type object 'Colors' has no attribute 'Crust'
+Traceback (most recent call last):
+  File "D:\study\code\trae\pid_controler\main.py", line 79, in main
+    window = MainWindow()
+  File "D:\study\code\trae\pid_controler\ui\main_window.py", line 68, in __init__
+    self._setup_central_widget()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "D:\study\code\trae\pid_controler\ui\main_window.py", line 184, in _setup_central_widget
+    self._control_panel = ControlPanel()
+                          ~~~~~~~~~~~~^^
+  File "D:\study\code\trae\pid_controler\ui\control_panel.py", line 206, in __init__
+    self._setup_ui()
+    ~~~~~~~~~~~~~~^^
+  File "D:\study\code\trae\pid_controler\ui\control_panel.py", line 379, in _setup_ui
+    color: {Colors.Crust};
+            ^^^^^^^^^^^^
+AttributeError: type object 'Colors' has no attribute 'Crust'. Did you mean: 'CRUST'?
+2026-05-03 18:45:49 [INFO] __main__: ============================================================
+2026-05-03 18:45:49 [INFO] __main__: 直流减速电机闭环控制上位机启动
+2026-05-03 18:45:49 [INFO] __main__: ============================================================
+2026-05-03 18:45:49 [CRITICAL] __main__: 主窗口创建失败: type object 'Colors' has no attribute 'Crust'
+Traceback (most recent call last):
+  File "D:\study\code\trae\pid_controler\main.py", line 79, in main
+    window = MainWindow()
+  File "D:\study\code\trae\pid_controler\ui\main_window.py", line 68, in __init__
+    self._setup_central_widget()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "D:\study\code\trae\pid_controler\ui\main_window.py", line 184, in _setup_central_widget
+    self._control_panel = ControlPanel()
+                          ~~~~~~~~~~~~^^
+  File "D:\study\code\trae\pid_controler\ui\control_panel.py", line 206, in __init__
+    self._setup_ui()
+    ~~~~~~~~~~~~~~^^
+  File "D:\study\code\trae\pid_controler\ui\control_panel.py", line 379, in _setup_ui
+    color: {Colors.Crust};
+            ^^^^^^^^^^^^
+AttributeError: type object 'Colors' has no attribute 'Crust'. Did you mean: 'CRUST'?
+2026-05-03 19:07:51 [INFO] __main__: ============================================================
+2026-05-03 19:07:51 [INFO] __main__: 直流减速电机闭环控制上位机启动
+2026-05-03 19:07:51 [INFO] __main__: ============================================================
+2026-05-03 19:07:53 [CRITICAL] __main__: 主窗口创建失败: type object 'Colors' has no attribute 'Crust'
+Traceback (most recent call last):
+  File "D:\study\code\trae\pid_controler\main.py", line 79, in main
+    window = MainWindow()
+  File "D:\study\code\trae\pid_controler\ui\main_window.py", line 68, in __init__
+    self._setup_central_widget()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "D:\study\code\trae\pid_controler\ui\main_window.py", line 184, in _setup_central_widget
+    self._control_panel = ControlPanel()
+                          ~~~~~~~~~~~~^^
+  File "D:\study\code\trae\pid_controler\ui\control_panel.py", line 206, in __init__
+    self._setup_ui()
+    ~~~~~~~~~~~~~~^^
+  File "D:\study\code\trae\pid_controler\ui\control_panel.py", line 379, in _setup_ui
+    color: {Colors.Crust};
+            ^^^^^^^^^^^^
+AttributeError: type object 'Colors' has no attribute 'Crust'. Did you mean: 'CRUST'?
+2026-05-03 19:08:08 [INFO] __main__: ============================================================
+2026-05-03 19:08:08 [INFO] __main__: 直流减速电机闭环控制上位机启动
+2026-05-03 19:08:08 [INFO] __main__: ============================================================
+2026-05-03 19:08:08 [CRITICAL] __main__: 主窗口创建失败: type object 'Colors' has no attribute 'Crust'
+Traceback (most recent call last):
+  File "D:\study\code\trae\pid_controler\main.py", line 79, in main
+    window = MainWindow()
+  File "D:\study\code\trae\pid_controler\ui\main_window.py", line 68, in __init__
+    self._setup_central_widget()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "D:\study\code\trae\pid_controler\ui\main_window.py", line 184, in _setup_central_widget
+    self._control_panel = ControlPanel()
+                          ~~~~~~~~~~~~^^
+  File "D:\study\code\trae\pid_controler\ui\control_panel.py", line 206, in __init__
+    self._setup_ui()
+    ~~~~~~~~~~~~~~^^
+  File "D:\study\code\trae\pid_controler\ui\control_panel.py", line 379, in _setup_ui
+    color: {Colors.Crust};
+            ^^^^^^^^^^^^
+AttributeError: type object 'Colors' has no attribute 'Crust'. Did you mean: 'CRUST'?
+2026-05-03 19:12:36 [INFO] __main__: ============================================================
+2026-05-03 19:12:36 [INFO] __main__: 直流减速电机闭环控制上位机启动
+2026-05-03 19:12:36 [INFO] __main__: ============================================================
+2026-05-03 19:12:36 [CRITICAL] __main__: 主窗口创建失败: type object 'Colors' has no attribute 'Crust'
+Traceback (most recent call last):
+  File "D:\study\code\trae\pid_controler\main.py", line 79, in main
+    window = MainWindow()
+  File "D:\study\code\trae\pid_controler\ui\main_window.py", line 68, in __init__
+    self._setup_central_widget()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "D:\study\code\trae\pid_controler\ui\main_window.py", line 184, in _setup_central_widget
+    self._control_panel = ControlPanel()
+                          ~~~~~~~~~~~~^^
+  File "D:\study\code\trae\pid_controler\ui\control_panel.py", line 206, in __init__
+    self._setup_ui()
+    ~~~~~~~~~~~~~~^^
+  File "D:\study\code\trae\pid_controler\ui\control_panel.py", line 379, in _setup_ui
+    color: {Colors.Crust};
+            ^^^^^^^^^^^^
+AttributeError: type object 'Colors' has no attribute 'Crust'. Did you mean: 'CRUST'?
+2026-05-03 19:13:47 [INFO] __main__: ============================================================
+2026-05-03 19:13:47 [INFO] __main__: 直流减速电机闭环控制上位机启动
+2026-05-03 19:13:47 [INFO] __main__: ============================================================
+2026-05-03 19:13:48 [INFO] ui.main_window: 上位机启动完成
+2026-05-03 19:13:48 [INFO] __main__: 主窗口显示成功
+2026-05-03 19:15:10 [INFO] __main__: ============================================================
+2026-05-03 19:15:10 [INFO] __main__: 直流减速电机闭环控制上位机启动
+2026-05-03 19:15:10 [INFO] __main__: ============================================================
+2026-05-03 19:15:10 [INFO] ui.main_window: 上位机启动完成
+2026-05-03 19:15:10 [INFO] __main__: 主窗口显示成功
+2026-05-03 19:15:30 [INFO] __main__: 应用退出，退出码: 0
+2026-05-03 19:21:43 [INFO] __main__: ============================================================
+2026-05-03 19:21:43 [INFO] __main__: 直流减速电机闭环控制上位机启动
+2026-05-03 19:21:43 [INFO] __main__: ============================================================
+2026-05-03 19:21:44 [INFO] ui.main_window: 上位机启动完成
+2026-05-03 19:21:44 [INFO] __main__: 主窗口显示成功
+2026-05-03 19:23:01 [INFO] __main__: 应用退出，退出码: 0
+2026-05-03 19:24:44 [INFO] __main__: ============================================================
+2026-05-03 19:24:44 [INFO] __main__: 直流减速电机闭环控制上位机启动
+2026-05-03 19:24:44 [INFO] __main__: ============================================================
+2026-05-03 19:24:45 [INFO] ui.main_window: 上位机启动完成
+2026-05-03 19:24:45 [INFO] __main__: 主窗口显示成功
+2026-05-03 19:25:06 [INFO] __main__: 应用退出，退出码: 0
+2026-05-03 19:26:13 [INFO] main: ============================================================
+2026-05-03 19:26:13 [INFO] main: 直流减速电机闭环控制上位机启动
+2026-05-03 19:26:13 [INFO] main: ============================================================
+2026-05-03 19:26:14 [INFO] ui.main_window: 上位机启动完成
+2026-05-03 19:26:14 [INFO] main: 主窗口显示成功
+2026-05-03 19:27:13 [INFO] main: 应用退出，退出码: 0
+2026-05-03 19:33:00 [INFO] main: ============================================================
+2026-05-03 19:33:00 [INFO] main: 直流减速电机闭环控制上位机启动
+2026-05-03 19:33:00 [INFO] main: ============================================================
+2026-05-03 19:33:01 [INFO] ui.main_window: 上位机启动完成
+2026-05-03 19:33:01 [INFO] main: 主窗口显示成功
+2026-05-03 19:36:01 [INFO] main: 应用退出，退出码: 0
